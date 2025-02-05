@@ -4,5 +4,5 @@ int main(){
     char b[10];
     scanf("%s %s",&a,&b);
     printf("%9s and %s",a,b);
-    return 0
+    return 0;
 }
