@@ -5,14 +5,14 @@ int main(){
     scanf("%d %d",&a,&b);
     if(a||b){
         if(b<0){
-            print("True");
+            printf("True");
         }
         else{
-            print("False");
+            printf("False");
         }
     }
     else{
-        print("False");
+        printf("False");
     }
     return 0;
 }
