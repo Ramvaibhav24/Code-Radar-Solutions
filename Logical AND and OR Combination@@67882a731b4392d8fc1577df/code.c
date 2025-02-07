@@ -7,12 +7,12 @@ int main(){
         if(a==b<=0){
             printf("False");
         }
-        else if(b<0){
-            printf("True");
-        }
-        else{
-            printf("False");
-        }
+        else {if(b<0){
+            printf("True");}
+            else{
+                printf("False");
+            }
+        }    
     }
     else{
         printf("False");
