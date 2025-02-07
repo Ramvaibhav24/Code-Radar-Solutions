@@ -4,7 +4,7 @@ int main(){
     int b;
     scanf("%d %d",&a,&b);
     if(a||b){
-        if(a<=0 && b<=0){
+        if(a<=0){
             printf("False");
         }
         else {if(b<0){
@@ -13,6 +13,9 @@ int main(){
                 printf("False");
             }
         }    
+    }
+    else{
+        printf("True");
     }
     return 0;
 }
