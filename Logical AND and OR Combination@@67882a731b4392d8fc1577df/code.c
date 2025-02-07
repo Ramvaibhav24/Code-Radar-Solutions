@@ -11,4 +11,5 @@ int main(){
             print("False");
         }
     }
+    return 0;
 }
