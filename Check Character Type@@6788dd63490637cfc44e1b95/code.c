@@ -5,6 +5,7 @@ int main(void){
     if(a=='a' || 'e' || 'i'||'o'||'u'){
         printf("Vowel");
     }
-    else {a==(int)a;
-    printf("%d",a);}
+    else{
+        printf("idk");
+    }
 }
