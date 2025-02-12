@@ -3,6 +3,6 @@ int main(void){
     char a;
     scanf("%c",&a);
     if(a=='a' || 'e' || 'i'||'o'||'u'){
-        printf("Vowels");
+        printf("Vowel");
     }
 }
