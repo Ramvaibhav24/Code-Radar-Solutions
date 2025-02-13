@@ -13,7 +13,7 @@ void calc(a,b,c){
 int main(){
     int a,b;
     char=c[10];
-    scanf("%d %d %s",a,b,c);
+    scanf("%d %d %s",&a,&b,&c);
     calc(a,b,c);
     return 0;
 
