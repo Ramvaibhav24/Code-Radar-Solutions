@@ -1,6 +1,6 @@
 #include<stdio.h>
 void calc(int a,int b, char c){
-    int d;
+    int d =0;
     switch(c){
         case '+': d=a+b; break;
         case '-': d=a-b; break;
