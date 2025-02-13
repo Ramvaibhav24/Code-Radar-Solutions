@@ -16,7 +16,7 @@ void calc(int a,int b, char c){
         default: printf("question padh");break;
     }
     printf("%d",d);
-    return
+    return;
 }
 int main(){
     int a,b;
