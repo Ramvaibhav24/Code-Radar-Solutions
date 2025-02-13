@@ -8,6 +8,7 @@ void calc(int a,int b, char c){
         case '/':  
                 if(b!=0){
                     d=a/b;
+                    break;
                 }
                 else{
                     printf("error");
