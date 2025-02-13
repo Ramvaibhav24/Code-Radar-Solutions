@@ -12,7 +12,8 @@ void calc(int a,int b, char c){
                 else{
                     printf("error");
                 }
-        default: printf("question padh");
+                break;
+        default: printf("question padh");break;
     }
     printf("%d",d);
     return
