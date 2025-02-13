@@ -10,8 +10,10 @@ int main(void){
             break;}
         }
         else{
+             if(i=a){
             printf("Prime");
-            break;
+            break;}
+            
         }
     }
 }
