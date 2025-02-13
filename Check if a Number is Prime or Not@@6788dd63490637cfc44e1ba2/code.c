@@ -3,9 +3,9 @@ int main(void){
     int a;
     scanf("%d",&a);
     int i;
-    for(i=2;i<=a;i++){
+    for(i=2;i<a;i++){
         if(a%i==0){
-            if(i=a){
+            if(i=a-1){
             printf("Not Prime");
             break;}
             else{
@@ -13,7 +13,7 @@ int main(void){
             }
         }
         else{
-            if(i=a){
+            if(i=a-1){
             printf("Prime");
             break;}
             else{
