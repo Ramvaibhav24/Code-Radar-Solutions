@@ -9,6 +9,7 @@ int main(void){
         }
         else{
             printf("Prime");
+            break;
         }
     }
 }
