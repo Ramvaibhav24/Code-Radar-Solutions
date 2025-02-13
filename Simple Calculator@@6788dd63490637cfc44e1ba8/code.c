@@ -1,5 +1,5 @@
 #include<stdio.h>
-void calc(int a,int b, int c){
+void calc(int a,int b, char c){
     int d;
     switch(c){
         case '+': d=a+b; break;
