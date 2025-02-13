@@ -9,7 +9,7 @@ int main(){
         printf("31");
     }
     else{
-        if(a=2){
+        if(a==2){
             printf("28");
         }
         else{
