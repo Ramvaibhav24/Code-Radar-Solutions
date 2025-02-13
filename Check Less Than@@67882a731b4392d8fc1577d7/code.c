@@ -2,7 +2,7 @@
 int main(void){
     int a, n;
     scanf("%d %d",&a,&n);
-    if(a<b){
+    if(a<n){
         printf("True");
 
     }
