@@ -19,6 +19,6 @@ int main() {
         printf("Fail");
         break;
         default:
-        printf("Invalid");
+        printf("Invalid grade");
     }   
 }     
