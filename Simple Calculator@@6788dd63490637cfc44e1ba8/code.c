@@ -5,10 +5,17 @@ void calc(int a,int b, char c){
         case '+': d=a+b; break;
         case '-': d=a-b; break;
         case '*': d=a*b; break;
-        case '/': d=a/b; break;
+        case '/':  
+                if(b!=0){
+                    d=a/b;
+                }
+                else{
+                    printf("error");
+                }
         default: printf("question padh");
     }
     printf("%d",d);
+    return
 }
 int main(){
     int a,b;
