@@ -20,7 +20,7 @@ void calc(int a,int b, char c){
 }
 int main(){
     int a,b;
-    char=c[10];
+    char c[10];
     scanf("%d %d %s",&a,&b,&c);
     calc(a,b,c);
     return 0;
