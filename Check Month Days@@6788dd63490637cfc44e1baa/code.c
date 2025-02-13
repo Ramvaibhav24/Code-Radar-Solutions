@@ -2,6 +2,10 @@
 int main(){
     int a;
     scanf("%d",&a);
+    if(a>12){
+        printf("Invalid month");
+        break;
+    }
     if(a=1 || 3||5||7||8||10||12){
         printf("31");
     }
