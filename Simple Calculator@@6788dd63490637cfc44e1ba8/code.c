@@ -8,20 +8,20 @@ void calc(int a,int b, char c){
         case '/':  
                 if(b!=0){
                     d=a/b;
+                    return;
                 }
                 else{
                     printf("error");
+                    return;
                 }
-                break;
         default: printf("question padh");break;
     }
     printf("%d",d);
-    return;
 }
 int main(){
     int a,b;
     char c[10];
-    scanf("%d %d %s",&a,&b,&c);
+    scanf("%d %d %c",&a,&b,&c);
     calc(a,b,c);
     return 0;
 
