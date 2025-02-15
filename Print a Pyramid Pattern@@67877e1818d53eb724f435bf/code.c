@@ -9,6 +9,9 @@ int main(void){
         for(int k=n;k<=i+2;k++){
             printf("*");
         }
+        for(int f=n;f<i+2;k++){
+            printf("*");
+        }
         printf("\n");
     }
 }
