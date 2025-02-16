@@ -2,9 +2,9 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int out=1;
+    int out;
     for(int i=1;i<=10;i++){
-        out=out*2;
+        out=i*2;
         printf("%d * %d = %d\n",n,i,out);
     }
     return 0;
