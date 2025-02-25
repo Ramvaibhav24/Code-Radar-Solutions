@@ -14,7 +14,7 @@ int main(void){
             printf(" ");
         }
         for(int m=n;m<=(2*i)-1;m--){
-            printf("*")
+            printf("*");
         }
         printf("\n");
     }
