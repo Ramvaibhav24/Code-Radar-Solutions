@@ -11,10 +11,10 @@ int main(void){
         }
     }    
     for(int f=n;f<=2*n;f++){
-        for(int l=n;l<=i;l++){
+        for(int l=n;l<=f;l++){
             printf(" ");
         }
-        for(int m=2*n;m<=(2*i)-1;m--){
+        for(int m=2*n;m<=(2*f)-1;m--){
             printf("*");
         printf(" ");    
         }
