@@ -10,7 +10,7 @@ int main(void){
             printf("*");
         }
     }    
-    for(int f=n;f<=2n;f++){
+    for(int f=n;f<=2*n;f++){
         for(int l=n;l<=i;l++){
             printf(" ");
         }
