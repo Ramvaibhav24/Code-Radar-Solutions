@@ -6,6 +6,9 @@ int main(void) {
         for (int j = 1; j <=n-i+1 ; j++) {
             printf("%d ",j);
         }
+        if(i==n+1){
+            break;
+        }
         printf("\n");
     }
 }  
