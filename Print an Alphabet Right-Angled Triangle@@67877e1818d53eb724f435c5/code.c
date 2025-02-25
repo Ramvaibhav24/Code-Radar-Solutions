@@ -6,9 +6,9 @@ int main(void){
 
     for(int i = 1; i <= n; i++){
         for(int j = 1; j <= i; j++){
-            printf("%c ", 'A' + j - 1); // Print letters starting from 'A'
+            printf("%c ", 'A' + j - 1); 
         }
-        printf("\n"); // Move to the next line after each row
+        printf("\n"); 
     }
 
     return 0;
