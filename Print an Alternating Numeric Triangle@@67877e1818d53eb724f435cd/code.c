@@ -6,6 +6,7 @@ int main(void) {
         for (int j = 0; j <=  i; j++) {
             if(i==1&&j==0){
                 printf("1");
+                break;
             }
             printf("%d ",j);
         }
