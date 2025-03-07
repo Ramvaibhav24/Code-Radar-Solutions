@@ -5,7 +5,7 @@ int isPrime(int num){
             return 1;
             break;
         }
-        if(num%i==0){
+        else if(num%i==0){
             return 0;
             break;
         }
