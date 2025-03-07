@@ -8,7 +8,6 @@ void leftRotate(int arr[], int n, int d) {
     for (int i = 0; i < n - d; i++) {
         arr[i] = arr[i + d];
     }
-
     for (int i = 0; i < d; i++) {
         arr[n - d + i] = temp[i];
     }
@@ -29,7 +28,7 @@ int main() {
         scanf("%d",&a);
         arr[i]=a;
     }
-    scanf("%d",d);
+    scanf("%d",&d);
     leftRotate(arr, n, d);
     printArray(arr, n);
     return 0;
