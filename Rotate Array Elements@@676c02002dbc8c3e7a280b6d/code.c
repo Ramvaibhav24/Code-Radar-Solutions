@@ -38,8 +38,6 @@ int main() {
     }
     scanf("%d",d);
     leftRotate(arr, n, d);
-
-    printf("Array after left rotation by %d positions: ", d);
     printArray(arr, n);
 
     return 0;
