@@ -22,6 +22,7 @@ int main(){
                     printf("Not Sorted");
                     return 0;
                 }
+                continue;
             }
         }
     }
