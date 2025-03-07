@@ -2,7 +2,6 @@
 int isPrime(int num){
            if(num==2){
             return 1;
-            break;
         }
     for(int i=2;i<num;i++){
  
