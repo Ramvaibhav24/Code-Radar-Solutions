@@ -8,5 +8,5 @@ int main(){
         scanf("%d",&a);
         arr[i]=a;
     }
-    printf(arr);
+    printf(arr[n]);
 }
