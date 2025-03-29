@@ -31,4 +31,7 @@ int main(){
     int k;
     scanf("%d",&k);
     rotate(arr,n,k);
+    for(int j=0;j<n;j++){
+        printf("%d",arr[j]);
+    }
 }
