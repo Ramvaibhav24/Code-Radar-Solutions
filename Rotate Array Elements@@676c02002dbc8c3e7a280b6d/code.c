@@ -32,6 +32,6 @@ int main(){
     scanf("%d",&k);
     rotate(arr,n,k);
     for(int j=0;j<n;j++){
-        printf("%d",arr[j]);
+        printf("%d\n",arr[j]);
     }
 }
