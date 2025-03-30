@@ -20,4 +20,5 @@ int main(){
         scanf("%d",&a[i]);
         checkprime(a[i],0);
     }
+    printf("%d",count);
 }
