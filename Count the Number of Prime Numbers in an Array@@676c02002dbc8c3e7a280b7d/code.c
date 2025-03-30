@@ -1,27 +1,29 @@
 #include<stdio.h>
-int checkprime(int n,int count){
-    for(int i=2;i<n;i++){
+#include<math.h>
+int checkprimt(int n){
+    if(n<2){
+        return 0;
+    }
+    for(int i=0;i<sqrt(n);i++){
         if(n%i==0){
-            if(i==n-1){
-                break;
-            }
-            continue;
+            return 0;
         }
-        else{
-            if(i==n-1){
-                count+=1;
-            }
-        }
-    }return count;
+    }
+    return 1;
 }
 int main(){
     int n;
-    int ct=0;
+    int count=0;
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
-        ct+=checkprime(a[i],0);
+        if(checkprime[a[i]]==1){
+            count+=1;
+        }
+        else{
+            continue;
+        }
     }
-    printf("%d",ct);
+
 }
