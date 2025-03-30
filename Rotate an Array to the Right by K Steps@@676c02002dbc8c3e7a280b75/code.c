@@ -2,9 +2,9 @@
 void reverse(int a,int start,int end){
     while(start<end){
         int temp;
-        temp=a[i];
-        a[i]=a[j];
-        a[j]=temp;
+        temp=a[start];
+        a[start]=a[end];
+        a[end]=temp;
         start++;
         end--;
     }
