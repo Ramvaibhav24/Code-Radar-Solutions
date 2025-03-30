@@ -10,10 +10,11 @@ int count(int n){
 }
 int main(){
     int n;
-    if(n<0){
+
+    scanf("%d",&n);
+        if(n<0){
         n+=(2*n);
     }
-    scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
