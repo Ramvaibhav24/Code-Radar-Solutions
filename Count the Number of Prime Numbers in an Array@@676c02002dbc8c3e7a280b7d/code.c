@@ -1,5 +1,5 @@
 #include<stdio.h>
-void checkprime(int n,int count){
+int checkprime(int n,int count){
     for(int i=2;i<n;i++){
         if(n%i==0){
             continue;
@@ -9,16 +9,16 @@ void checkprime(int n,int count){
                 count+=1;
             }
         }
-    }
+    }return count;
 }
 int main(){
     int n;
-    int count;
+    int ct=0;
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
-        checkprime(a[i],0);
+        ct+=checkprime(a[i],0);
     }
-    printf("%d",count);
+    printf("%d",ct);
 }
