@@ -2,6 +2,9 @@
 int checkprime(int n,int count){
     for(int i=2;i<n;i++){
         if(n%i==0){
+            if(i==n-1){
+                break;
+            }
             continue;
         }
         else{
