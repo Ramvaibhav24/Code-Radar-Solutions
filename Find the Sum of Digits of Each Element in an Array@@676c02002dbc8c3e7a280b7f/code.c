@@ -1,7 +1,7 @@
 #include<stdio.h>
 int count(int n){
     if(n<0){
-        n+=(2*n);
+        n=-1*n;
     }
     int i=0;
     int count=0;
