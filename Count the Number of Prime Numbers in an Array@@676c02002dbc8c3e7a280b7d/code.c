@@ -20,6 +20,7 @@ int main(){
         if(checkprime(a[i])==1){
             count++;
         }
+        printf("%d",count);
     }
 
 }
