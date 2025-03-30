@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-int checkprimt(int n){
+int checkprime(int n){
     if(n<2){
         return 0;
     }
