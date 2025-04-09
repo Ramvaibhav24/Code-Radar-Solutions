@@ -12,6 +12,9 @@ int main(){
                 printf("%d",arr[j-1]);
                 return 0;
             }
+            else{
+                continue;
+            }
         }
     }
 
